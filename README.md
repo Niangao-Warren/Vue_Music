@@ -1,6 +1,6 @@
 # Vue_Music
 
-Vue_Music 源码，原文地址：https://www.jianshu.com/nb/23787315
+Vue_Music 项目源码，原文地址：https://www.jianshu.com/nb/23787315
 
 ### Vue_Music_01
 
