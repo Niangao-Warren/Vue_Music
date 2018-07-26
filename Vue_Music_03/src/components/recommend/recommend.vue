@@ -1,13 +1,31 @@
 <template>
   <div class="recommend" ref="recommend">
-    <div v-if="slider.length" class="slider-wrapper">
-      <mt-swipe :auto="4000">
-        <mt-swipe-item v-for="item in slider" :key="item.id">
-          <a :href="item.linkUrl">
-            <img :src="item.picUrl" class="slider-img">
-          </a>
-        </mt-swipe-item>
-      </mt-swipe>
+    <div class="recommend-content">
+      <div>
+        <div v-if="slider.length" class="slider-wrapper">
+          <mt-swipe :auto="4000">
+            <mt-swipe-item v-for="(item, index) in slider" :key="index">
+              <a :href="item.linkUrl">
+                <img :src="item.picUrl" class="slider-img">
+              </a>
+            </mt-swipe-item>
+          </mt-swipe>
+        </div>
+        <div class="recommend-list">
+          <h1 class="list-title">热门歌单推荐</h1>
+          <ul>
+            <li v-for="(item, index) in discList" :key="index" class="item">
+              <div class="icon">
+                <img width="60" height="60" v-lazy="item.picUrl">
+              </div>
+              <div class="text">
+                <h2 class="desc" v-html="item.songListDesc"></h2>
+                <p class="name" v-html="item.songListAuthor"></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -19,7 +37,8 @@
   export default {
     data() {
       return {
-        slider: []
+        slider: [],
+        discList: []
       }
     },
     created() {
@@ -30,7 +49,7 @@
         getHomeData().then((res) => {
           if (res.code === ERR_OK) {
             this.slider = res.data.slider
-            console.log(res.data.songList)
+            this.discList = res.data.songList
           }
         })
       }
@@ -73,10 +92,10 @@
             line-height: 20px
             overflow: hidden
             font-size: $font-size-medium
-            .name
+            .desc
               margin-bottom: 10px
               color: $color-text
-            .desc
+            .name
               color: $color-text-d
       .loading-container
         position: absolute
