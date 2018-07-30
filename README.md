@@ -19,3 +19,9 @@ Vue_Music 项目源码，原文地址：https://www.jianshu.com/nb/23787315
 获取轮播图及热门歌单数据，Swiper 组件开发及歌单列表页渲染，原文地址：[Vue2.0 数据抓取及Swiper组件开发](https://www.jianshu.com/p/de4a631f4a4a)
 
 <img src="https://upload-images.jianshu.io/upload_images/1662958-1df52ebcadc2375b.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/450" width="350">
+
+### Vue_Music_04
+
+Scroll 组件的抽象和应用，并设置歌单图片的懒加载，原文地址：[Vue2.0 scroll 组件的抽象和应用](https://www.jianshu.com/p/b7a61470b79d)
+
+<img src="https://upload-images.jianshu.io/upload_images/1662958-606451e72237e97e.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/450" width="350">

@@ -1,12 +1,12 @@
 <template>
   <div class="recommend" ref="recommend">
-    <div class="recommend-content">
+    <scroll ref="scroll" class="recommend-content" :data="discList">
       <div>
         <div v-if="slider.length" class="slider-wrapper">
           <mt-swipe :auto="4000">
             <mt-swipe-item v-for="(item, index) in slider" :key="index">
               <a :href="item.linkUrl">
-                <img :src="item.picUrl" class="slider-img">
+                <img @load="loadImage" :src="item.picUrl" class="slider-img needsclick">
               </a>
             </mt-swipe-item>
           </mt-swipe>
@@ -16,7 +16,7 @@
           <ul>
             <li v-for="(item, index) in discList" :key="index" class="item">
               <div class="icon">
-                <img width="60" height="60" :src="item.picUrl">
+                <img width="60" height="60" v-lazy="item.picUrl">
               </div>
               <div class="text">
                 <h2 class="desc" v-html="item.songListDesc"></h2>
@@ -26,11 +26,12 @@
           </ul>
         </div>
       </div>
-    </div>
+    </scroll>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
+  import Scroll from 'base/scroll/scroll'
   import { getHomeData } from 'api/recommend'
   import { ERR_OK } from 'api/config'
 
@@ -49,10 +50,19 @@
         getHomeData().then((res) => {
           if (res.code === ERR_OK) {
             this.slider = res.data.slider
+            // setTimeout(() => {
+            //   this.slider = res.data.slider
+            // }, 2000)
             this.discList = res.data.songList
           }
         })
+      },
+      loadImage() {
+        this.$refs.scroll.refresh()
       }
+    },
+    components: {
+      Scroll
     }
   }
 </script>
