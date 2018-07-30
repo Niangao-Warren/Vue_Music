@@ -101,5 +101,6 @@
         position: absolute
         width: 100%
         top: 50%
+        margin-left: -25px
         transform: translateY(-50%)
 </style>

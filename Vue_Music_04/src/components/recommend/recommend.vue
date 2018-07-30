@@ -26,6 +26,9 @@
           </ul>
         </div>
       </div>
+      <div class="loading-container" v-show="!discList.length">
+        <mt-spinner type="fading-circle" :size="50" color="#fff"></mt-spinner>
+      </div>
     </scroll>
   </div>
 </template>
@@ -111,5 +114,7 @@
         position: absolute
         width: 100%
         top: 50%
+        left: 50%
+        margin-left: -25px
         transform: translateY(-50%)
 </style>
