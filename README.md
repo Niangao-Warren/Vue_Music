@@ -25,3 +25,9 @@ Vue_Music 项目源码，原文地址：https://www.jianshu.com/nb/23787315
 Scroll 组件的抽象和应用，并设置歌单图片的懒加载，Loading 加载动画，原文地址：[Vue2.0 scroll 组件的抽象和应用](https://www.jianshu.com/p/b7a61470b79d)
 
 <img src="https://upload-images.jianshu.io/upload_images/1662958-bac835ba589e3447.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/450" width="350">
+
+### Vue_Music_05
+
+歌手数据的获取，并按照热门，歌手首字母 A-Z 进行排序，原文地址：[Vue2.0 歌手数据获取及排序](https://www.jianshu.com/p/4e341651addb)
+
+<img src="https://upload-images.jianshu.io/upload_images/1662958-47d8c777ad4ac2b9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" width="350">
