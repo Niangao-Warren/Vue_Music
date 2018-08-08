@@ -31,7 +31,6 @@ Scroll 组件的抽象和应用，并设置歌单图片的懒加载，Loading �
 歌手数据的获取，并按照热门，歌手首字母 A-Z 进行排序，原文地址：[Vue2.0 歌手数据获取及排序](https://www.jianshu.com/p/4e341651addb)
 
 <img src="https://upload-images.jianshu.io/upload_images/1662958-47d8c777ad4ac2b9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" width="700">
-<<<<<<< HEAD
 
 ### Vue_Music_06
 
@@ -40,5 +39,3 @@ Scroll 组件的抽象和应用，并设置歌单图片的懒加载，Loading �
 <img src="https://upload-images.jianshu.io/upload_images/1662958-3d7f56f7e2651d70.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/449" width="350" style="display:inlink-block">
 
 <img src="https://upload-images.jianshu.io/upload_images/1662958-c2aec84aab7078b9.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/449" width="350" style="display:inlink-block">
-=======
->>>>>>> 69db44d953418ac7e9ba1e7bd326b07a1955c7b4
