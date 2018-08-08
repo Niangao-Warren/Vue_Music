@@ -36,6 +36,6 @@ Scroll 组件的抽象和应用，并设置歌单图片的懒加载，Loading �
 
 歌手列表页快速入口开发及同步滚动歌手列表页，滚动固定标题，原文地址：[Vue2.0 歌手列表滚动及右侧快速入口实现](https://www.jianshu.com/p/3036c6e6f389)
 
-<img src="https://upload-images.jianshu.io/upload_images/1662958-3d7f56f7e2651d70.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/449" width="350" style="display:inlink-block">
+<img src="https://upload-images.jianshu.io/upload_images/1662958-3d7f56f7e2651d70.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/449" width="350" style="display:inline-block;">
 
-<img src="https://upload-images.jianshu.io/upload_images/1662958-c2aec84aab7078b9.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/449" width="350" style="display:inlink-block">
+<img src="https://upload-images.jianshu.io/upload_images/1662958-c2aec84aab7078b9.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/449" width="350" style="display:inline-block;">
