@@ -12,7 +12,7 @@ Vue_Music 项目源码，原文地址：https://www.jianshu.com/nb/23787315
 
 项目路由配置，以及 Tab 组件开发，原文地址：[Vue2.0 路由配置及Tab组件开发](https://www.jianshu.com/p/9ea0935421c5)
 
-<img src="https://upload-images.jianshu.io/upload_images/1662958-eb2a00438859228d.gif?imageMogr2/auto-orient/strip" width="350">
+<img src="https://upload-images.jianshu.io/upload_images/1662958-192339d11ef37572.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/449" width="350">
 
 ### Vue_Music_03
 
